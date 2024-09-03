@@ -4,25 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator | Mini projeto</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <img class="logo" src="./assets/logo.png" alt="generator logo"/>
-    
-<class="containerInput">
-    <span> Tamanho <span id="valor"></span> caracteres</span>
-    <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+    <img class="logo" src="./assets/passwordlogo.png" alt="generator logo"/>
 
-    <button id="button" class="buttonCTA">Generate Password</button> 
-</main>
+    <div class="containerInput">
+        <span> Tamanho <span id="valor"></span> caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+    </div>
 
-<div id="container-password" class="containerPwdHide">
-    <span class="title">Your password is:</span>
-    <span id="password" class="password">123123123123</span>
-    <span>Click to copy👆</span>
-</div>
+    <button id="button" class="buttonCTA">Generate Password</button>
+
+    <div id="container-password" class="container-password hide">
+        <span class="title">Your password is:</span>
+        <span id="password" class="password">123123123123</span>
+        <span class="tooltip">Click to copy👆</span>
+    </div>
 
     <script src="script.js"></script>
 </body>
