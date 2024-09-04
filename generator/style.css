@@ -7,7 +7,7 @@
 
 body {
     background-color: #c0c0c0ea;
-    width: 40%;
+    width: 500px;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .containerInput {
-    max-width: 400px;
+    max-width: 100%;
     margin: 14px 0;
 }
 
